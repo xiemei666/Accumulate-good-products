@@ -31,8 +31,15 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "首页专题",
+					"pathName": "pages/index/topic/main",
+					"scene": null
+				}
+			]
 		}
 	}
 }

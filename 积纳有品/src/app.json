@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/wode/main"
+    "pages/wode/main",
+    "pages/index/topic/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
