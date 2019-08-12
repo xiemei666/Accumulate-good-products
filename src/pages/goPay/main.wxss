@@ -1,2 +1,0 @@
-@import "../../common/vendor.wxss";
-page{background-color:#f3f7f7}.mian{width:100%;height:100%}.item{margin:20rpx;border-radius:10rpx;background-color:#fff}.foot{text-align:center;line-height:100rpx;background:linear-gradient(217deg,#f86367,#fb2579)}

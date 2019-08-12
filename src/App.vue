@@ -1,12 +1,7 @@
 <script>
-import { login } from "@/service/";
-import { mapMutations } from "vuex";
+
 export default {
-  methods: {
-    ...mapMutations({
-      updateOpenid: "hitCard/updateOpenId"
-    })
-  },
+
   created() {
     // 调用API从本地缓存中获取数据
     /*
@@ -18,19 +13,9 @@ export default {
      */
 
     // 调用登陆接口
-    wx.login({
-      success: async res => {
-        if (res.code) {
-          //发起网络请求
-          let data = await login(res.code);
-          if(data.code === 0){
-            this.updateOpenid(data.data.openid)
-          }
-        } else {
-          console.log("登录失败！" + res.errMsg);
-        }
-      }
-    });
+ 
+ 
+
   }
 };
 </script>
@@ -40,20 +25,20 @@ page {
   width: 100%;
   height: 100%;
 }
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
 /* this rule will be remove */
 * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-html,
-body,
-div,
-p,
-span,
-ul,
-ol,
-li {
-  box-sizing: border-box;
+  transition: width 2s;
+  -moz-transition: width 2s;
+  -webkit-transition: width 2s;
+  -o-transition: width 2s;
 }
 </style>

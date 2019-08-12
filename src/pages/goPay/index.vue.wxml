@@ -1,5 +1,0 @@
-<template name="e41923a4"><view class="_div data-v-db24241c main"><view class="_div data-v-db24241c item"><view class="_div data-v-db24241c">订单应付金额(含邮)</view> <view class="_div data-v-db24241c">
-      ￥
-      <label class="_span data-v-db24241c">123</label></view> <view class="_div data-v-db24241c">
-      订单总计
-      <label class="_span data-v-db24241c">123</label></view></view> <view class="_div data-v-db24241c"></view> <view bindtap="handleProxy" class="_div data-v-db24241c foot" data-eventid="{{'0'}}" data-comkey="{{$k}}">去支付</view></view></template>
