@@ -1,0 +1,3 @@
+<import src="/components/user/login.vue.wxml" /><template name="1540d1e5"><view class="_div data-v-19bb51a9 wrap"><view class="_div data-v-19bb51a9"><view bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_p data-v-19bb51a9">
+      请登录
+      <template data="{{...$root[$kk+'0'], $root}}" is="adece364"></template></view></view></view></template>

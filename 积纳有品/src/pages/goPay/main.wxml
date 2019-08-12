@@ -1,0 +1,1 @@
+<import src="/pages/goPay/index.vue.wxml" /><template is="e41923a4" data="{{ ...$root['0'], $root }}"/>
