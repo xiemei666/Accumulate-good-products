@@ -1,7 +1,10 @@
 {
   "pages": [  
     "pages/index/main",
-    "pages/wode/main"
+    "pages/wode/main",
+    "pages/shopCar/main",
+    "pages/index/searchDetail/main",
+    "pages/index/classify/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,6 +16,9 @@
     "list": [{
       "pagePath": "pages/index/main",
       "text": "首页"
+    }, {
+      "pagePath": "pages/shopCar/main",
+      "text": "购物车"
     }, {
       "pagePath": "pages/wode/main",
       "text": "我的"
