@@ -1,7 +1,14 @@
 {
   "pages": [  
-    "pages/index/main",
-    "pages/wode/main"
+    "pages/addressDetail/main",
+    "pages/conect/main",
+    "pages/address/main",
+    "pages/card/main",
+    "pages/person/main",
+    "pages/wode/main",
+    "pages/index/main"
+
+
   ],
   "window": {
     "backgroundTextStyle": "light",
