@@ -22,6 +22,12 @@
        <span>学校</span>
        <span>其它</span>
      </div>
+     <div class="default">
+       设为默认地址
+     </div>
+     <button>
+       保存
+     </button>
    </form>
 </template>
 <script>
@@ -60,7 +66,7 @@ export default {
  }
  .label {
    width:100%;
-   padding:0 20px;
+   padding:0 40rpx 70rpx 40rpx;
    box-sizing:border-box;
    margin-top:20px;
  }
@@ -71,5 +77,19 @@ export default {
    border-radius:10px;
    margin-left:20rpx;
 
+ }
+ .default{
+  
+   width: 100%;
+   height: 100rpx;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 20rpx;
+   box-sizing: border-box;
+ }
+ button{
+   width: 90%;
+   color:#fff;
+   background: #33d6c5;
  }
 </style>
